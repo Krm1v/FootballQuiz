@@ -18,9 +18,12 @@ struct DataManager {
     var questionNumber = 0
     var score = 0
     
+//MARK: - Methods
+    
     mutating func checkAnswer(_ userAnswer: String) -> Bool {
         
         if userAnswer == quiz[questionNumber].answer {
+            score += 1
             return true
         } else {
             return false
