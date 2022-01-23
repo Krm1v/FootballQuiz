@@ -15,13 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ye4-bg-60f">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ye4-bg-60f">
                                 <rect key="frame" x="67" y="120" width="280" height="280"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="uuI-mP-wNN"/>
+                                </constraints>
                             </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="laG-W6-MBJ">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="laG-W6-MBJ">
                                 <rect key="frame" x="0.0" y="88" width="414" height="3"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="ZZf-EO-doL"/>
+                                </constraints>
                                 <color key="progressTintColor" red="0.59999999999999998" green="0.99607843137254903" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </progressView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="44z-DM-Mhc">
@@ -109,8 +113,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.72549019607843135" green="0.51372549019607838" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Ye4-bg-60f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="3wF-1d-TBd"/>
+                            <constraint firstItem="laG-W6-MBJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6WE-OQ-ET8"/>
                             <constraint firstItem="44z-DM-Mhc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EzP-ZH-g3R"/>
+                            <constraint firstAttribute="trailing" secondItem="laG-W6-MBJ" secondAttribute="trailing" id="GnJ-ly-PxO"/>
                             <constraint firstItem="44z-DM-Mhc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.4" id="JmY-iM-qxe"/>
+                            <constraint firstItem="Ye4-bg-60f" firstAttribute="top" secondItem="laG-W6-MBJ" secondAttribute="bottom" constant="30" id="eUs-V8-w2k"/>
+                            <constraint firstItem="laG-W6-MBJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qhd-wN-Dkx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ye4-bg-60f" secondAttribute="trailing" constant="67" id="xqq-wh-SxB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="14e-A3-7tz"/>

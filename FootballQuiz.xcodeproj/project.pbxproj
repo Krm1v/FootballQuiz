@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		860D5F1C279DC7EF001A2C1B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D5F1B279DC7EF001A2C1B /* Player.swift */; };
 		860D5F1F279DC84D001A2C1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D5F1E279DC84D001A2C1B /* DataManager.swift */; };
+		860D5F22279DF656001A2C1B /* Extension + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D5F21279DF656001A2C1B /* Extension + Alert.swift */; };
+		860D5F24279DF672001A2C1B /* Extension + Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D5F23279DF672001A2C1B /* Extension + Gradient.swift */; };
 		86417203279DB9E900248A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86417202279DB9E900248A96 /* AppDelegate.swift */; };
 		86417205279DB9E900248A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86417204279DB9E900248A96 /* SceneDelegate.swift */; };
 		86417207279DB9E900248A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86417206279DB9E900248A96 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		860D5F1B279DC7EF001A2C1B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		860D5F1E279DC84D001A2C1B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		860D5F21279DF656001A2C1B /* Extension + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Alert.swift"; sourceTree = "<group>"; };
+		860D5F23279DF672001A2C1B /* Extension + Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Gradient.swift"; sourceTree = "<group>"; };
 		864171FF279DB9E900248A96 /* FootballQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86417202279DB9E900248A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86417204279DB9E900248A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				86417206279DB9E900248A96 /* ViewController.swift */,
+				860D5F21279DF656001A2C1B /* Extension + Alert.swift */,
+				860D5F23279DF672001A2C1B /* Extension + Gradient.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860D5F22279DF656001A2C1B /* Extension + Alert.swift in Sources */,
+				860D5F24279DF672001A2C1B /* Extension + Gradient.swift in Sources */,
 				860D5F1C279DC7EF001A2C1B /* Player.swift in Sources */,
 				860D5F1F279DC84D001A2C1B /* DataManager.swift in Sources */,
 				86417207279DB9E900248A96 /* ViewController.swift in Sources */,
@@ -329,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV859BQR3J;
 				INFOPLIST_FILE = FootballQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV859BQR3J;
 				INFOPLIST_FILE = FootballQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
