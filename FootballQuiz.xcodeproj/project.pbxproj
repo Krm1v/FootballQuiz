@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860D5F1C279DC7EF001A2C1B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D5F1B279DC7EF001A2C1B /* Player.swift */; };
+		860D5F1F279DC84D001A2C1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D5F1E279DC84D001A2C1B /* DataManager.swift */; };
 		86417203279DB9E900248A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86417202279DB9E900248A96 /* AppDelegate.swift */; };
 		86417205279DB9E900248A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86417204279DB9E900248A96 /* SceneDelegate.swift */; };
 		86417207279DB9E900248A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86417206279DB9E900248A96 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860D5F1B279DC7EF001A2C1B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		860D5F1E279DC84D001A2C1B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		864171FF279DB9E900248A96 /* FootballQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86417202279DB9E900248A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86417204279DB9E900248A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860D5F19279DC6E5001A2C1B /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				86417202279DB9E900248A96 /* AppDelegate.swift */,
+				86417204279DB9E900248A96 /* SceneDelegate.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		860D5F1A279DC705001A2C1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86417208279DB9E900248A96 /* Main.storyboard */,
+				8641720D279DB9EF00248A96 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		860D5F1D279DC7F6001A2C1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				860D5F1B279DC7EF001A2C1B /* Player.swift */,
+				860D5F1E279DC84D001A2C1B /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		860D5F20279DDA56001A2C1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86417206279DB9E900248A96 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		864171F6279DB9E900248A96 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +95,11 @@
 		86417201279DB9E900248A96 /* FootballQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				86417202279DB9E900248A96 /* AppDelegate.swift */,
-				86417204279DB9E900248A96 /* SceneDelegate.swift */,
-				86417206279DB9E900248A96 /* ViewController.swift */,
-				86417208279DB9E900248A96 /* Main.storyboard */,
+				860D5F19279DC6E5001A2C1B /* UIApplication */,
+				860D5F1D279DC7F6001A2C1B /* Model */,
+				860D5F20279DDA56001A2C1B /* Controller */,
+				860D5F1A279DC705001A2C1B /* View */,
 				8641720B279DB9EF00248A96 /* Assets.xcassets */,
-				8641720D279DB9EF00248A96 /* LaunchScreen.storyboard */,
 				86417210279DB9EF00248A96 /* Info.plist */,
 			);
 			path = FootballQuiz;
@@ -137,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860D5F1C279DC7EF001A2C1B /* Player.swift in Sources */,
+				860D5F1F279DC84D001A2C1B /* DataManager.swift in Sources */,
 				86417207279DB9E900248A96 /* ViewController.swift in Sources */,
 				86417203279DB9E900248A96 /* AppDelegate.swift in Sources */,
 				86417205279DB9E900248A96 /* SceneDelegate.swift in Sources */,
