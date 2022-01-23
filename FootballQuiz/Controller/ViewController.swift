@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     var player = DataManager()
     let primaryColor = UIColor(red: 187/255, green: 141/255, blue: 246/255, alpha: 1)
     let secondaryColor = UIColor(red: 85/255, green: 37/255, blue: 134/255, alpha: 1)
-        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         addVerticalGradientLayer(topcolor: primaryColor, bottomColor: secondaryColor)

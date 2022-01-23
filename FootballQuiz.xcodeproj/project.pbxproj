@@ -103,8 +103,8 @@
 			children = (
 				860D5F19279DC6E5001A2C1B /* UIApplication */,
 				860D5F1D279DC7F6001A2C1B /* Model */,
-				860D5F20279DDA56001A2C1B /* Controller */,
 				860D5F1A279DC705001A2C1B /* View */,
+				860D5F20279DDA56001A2C1B /* Controller */,
 				8641720B279DB9EF00248A96 /* Assets.xcassets */,
 				86417210279DB9EF00248A96 /* Info.plist */,
 			);

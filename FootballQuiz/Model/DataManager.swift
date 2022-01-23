@@ -23,9 +23,7 @@ struct DataManager {
     var questionNumber = 0
     var score = 0
     
-//MARK: - Methods
-    
-    
+    //MARK: - Methods
     
     func getAnswer() -> [String] {
         return quiz[questionNumber].question

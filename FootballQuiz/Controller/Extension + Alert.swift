@@ -10,7 +10,7 @@ import UIKit
 extension ViewController {
     
     func showAlert() {
-    
+        
         let alert = UIAlertController(title: "Your score: \(player.getScore())",
                                       message: "",
                                       preferredStyle: .alert)
