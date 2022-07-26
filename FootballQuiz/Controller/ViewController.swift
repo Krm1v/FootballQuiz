@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     //MARK: - @IBAction
     
     @IBAction func answerButtonPressed(_ sender: UIButton) {
+        
         guard let userAnswer = sender.currentTitle else { return }
         let userWasRight = player.checkAnswer(userAnswer)
         
@@ -61,6 +62,7 @@ class ViewController: UIViewController {
     //MARK: - Methods
     
     @objc func updateUI() {
+        
         let answerChoise = player.getAnswer()
         firstButton.setTitle(answerChoise[0], for: .normal)
         secondButton.setTitle(answerChoise[1], for: .normal)
@@ -78,6 +80,7 @@ class ViewController: UIViewController {
     }
     
     private func hideUI() {
+        
         imageView.isHidden = true
         firstButton.isHidden = true
         secondButton.isHidden = true
@@ -87,6 +90,7 @@ class ViewController: UIViewController {
     }
     
     func showUI() {
+        
         imageView.isHidden = false
         firstButton.isHidden = false
         secondButton.isHidden = false
@@ -94,5 +98,4 @@ class ViewController: UIViewController {
         fourthButton.isHidden = false
         progressBar.isHidden = false
     }
-    
 }

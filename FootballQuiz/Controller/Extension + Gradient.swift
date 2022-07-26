@@ -8,6 +8,7 @@
 import UIKit
 
 extension ViewController {
+    
     func addVerticalGradientLayer(topcolor: UIColor,
                                   bottomColor: UIColor) {
         let gradient = CAGradientLayer()

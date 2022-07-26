@@ -54,6 +54,7 @@ struct DataManager {
     }
     
     mutating func nextQuestion() {
+        
         if questionNumber + 1 < quiz.count {
             questionNumber += 1
         } else {
